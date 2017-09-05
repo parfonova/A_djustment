@@ -1,0 +1,28 @@
+﻿  CenterLB.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(30): note: see reference to function template instantiation '_Ty std::_Accumulate_unchecked<double*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2 &)' being compiled
+          with
+          [
+              _Ty=int,
+              _Fn2=std::plus<void>,
+              _InIt=double *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(38): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn2=std::plus<void>
+          ]
+  ..\..\calibration\calibration\CenterLB.cpp(323): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt,_InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  MainTest.cpp
+  Motor.cpp
+  PID.cpp
+  uEyeSteal.cpp
+  XY_Mirror.cpp
+opencv_world310d.lib(opencv_world310d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'

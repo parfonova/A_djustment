@@ -1,0 +1,17 @@
+﻿CenterLB.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+MainTest.obj : error LNK2019: unresolved external symbol AdsPortClose referenced in function main
+Motor.obj : error LNK2001: unresolved external symbol AdsPortClose
+Motor.obj : error LNK2019: unresolved external symbol AdsPortOpen referenced in function "public: __cdecl Motor::Motor(int)" (??0Motor@@QEAA@H@Z)
+XY_Mirror.obj : error LNK2001: unresolved external symbol AdsPortOpen
+Motor.obj : error LNK2019: unresolved external symbol AdsGetLocalAddress referenced in function "public: __cdecl Motor::Motor(int)" (??0Motor@@QEAA@H@Z)
+XY_Mirror.obj : error LNK2001: unresolved external symbol AdsGetLocalAddress
+Motor.obj : error LNK2019: unresolved external symbol AdsSyncWriteReq referenced in function "public: void __cdecl Motor::HSM_AxisMode(void)" (?HSM_AxisMode@Motor@@QEAAXXZ)
+XY_Mirror.obj : error LNK2001: unresolved external symbol AdsSyncWriteReq
+Motor.obj : error LNK2019: unresolved external symbol AdsSyncReadReq referenced in function "public: void __cdecl Motor::HSM_AxisMode(void)" (?HSM_AxisMode@Motor@@QEAAXXZ)
+XY_Mirror.obj : error LNK2001: unresolved external symbol AdsSyncReadReq
+Motor.obj : error LNK2019: unresolved external symbol AdsSyncReadWriteReq referenced in function "public: void __cdecl Motor::HSM_AxisMode(void)" (?HSM_AxisMode@Motor@@QEAAXXZ)
+XY_Mirror.obj : error LNK2001: unresolved external symbol AdsSyncReadWriteReq
+C:\TwinCAT\AdsApi\TcAdsDll\Lib\TcAdsDll.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files\IDS\uEye\Develop\Lib\uEye_api.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files\IDS\uEye\Develop\Lib\uEye_tools.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Lena\documents\visual studio 2015\Projects\A_djustment_WEBO\x64\Debug\A_djustment_WEBO.exe : fatal error LNK1120: 6 unresolved externals

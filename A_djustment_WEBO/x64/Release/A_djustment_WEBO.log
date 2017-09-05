@@ -1,0 +1,50 @@
+﻿  CenterLB.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(30): note: see reference to function template instantiation '_Ty std::_Accumulate_unchecked<double*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2 &)' being compiled
+          with
+          [
+              _Ty=int,
+              _Fn2=std::plus<void>,
+              _InIt=double *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\numeric(38): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn2=std::plus<void>
+          ]
+  CenterLB.cpp(317): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt,_InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  MainTest.cpp
+MainTest.cpp(548): warning C4101: 'DateiName': unreferenced local variable
+  Motor.cpp
+  PID.cpp
+  uEyeSteal.cpp
+  XY_Mirror.cpp
+  Running Code Analysis for C/C++...
+  Generating code
+c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\centerlb.cpp(238): warning C4715: 'CenterLB::findCenterMassCenter': not all control paths return a value
+  All 710 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  A_djustment_WEBO.vcxproj -> C:\Users\Lena\documents\visual studio 2015\Projects\A_djustment_WEBO\x64\Release\A_djustment_WEBO.exe
+  A_djustment_WEBO.vcxproj -> C:\Users\Lena\documents\visual studio 2015\Projects\A_djustment_WEBO\x64\Release\A_djustment_WEBO.pdb (Full PDB)
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\mat.inl.hpp(412): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\mat.inl.hpp(445): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\mat.inl.hpp(1886): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\mat.inl.hpp(2330): warning C6011: Dereferencing NULL pointer 'm'. See line 2327 for an earlier location where this can occur
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\mat.inl.hpp(2344): warning C6011: Dereferencing NULL pointer 'm'. See line 2341 for an earlier location where this can occur
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\utility.hpp(341): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\cuda.inl.hpp(301): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\cuda.inl.hpp(482): warning C6297: Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\matx.hpp(513): warning C6294: Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\matx.hpp(513): warning C6201: Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\matx.hpp(505): warning C6294: Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\matx.hpp(505): warning C6201: Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\matx.hpp(521): warning C6294: Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.
+c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\matx.hpp(521): warning C6201: Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'.
+c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp(174): warning C6001: Using uninitialized memory 'SPPx'.

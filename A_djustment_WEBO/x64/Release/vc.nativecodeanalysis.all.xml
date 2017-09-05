@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>412</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>cv::Mat::{ctor}</FUNCTION>
+    <DECORATED>??0Mat@cv@@QEAA@HHHPEAX_K@Z</DECORATED>
+    <FUNCLINE>405</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>445</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>cv::Mat::{ctor}</FUNCTION>
+    <DECORATED>??0Mat@cv@@QEAA@V?$Size_@H@1@HPEAX_K@Z</DECORATED>
+    <FUNCLINE>438</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>1886</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>cv::SparseMat::elemSize</FUNCTION>
+    <DECORATED>?elemSize@SparseMat@cv@@QEBA_KXZ</DECORATED>
+    <FUNCLINE>1884</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>2330</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'm'. See line 2327 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>cv::MatConstIterator::{ctor}</FUNCTION>
+    <DECORATED>??0MatConstIterator@cv@@QEAA@PEBVMat@1@HH@Z</DECORATED>
+    <FUNCLINE>2326</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2327</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2327</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2327</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2327</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2327</LINE>
+        <COLUMN>70</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2329</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'_m' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2330</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'_m' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>2344</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'm'. See line 2341 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>cv::MatConstIterator::{ctor}</FUNCTION>
+    <DECORATED>??0MatConstIterator@cv@@QEAA@PEBVMat@1@V?$Point_@H@1@@Z</DECORATED>
+    <FUNCLINE>2340</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2341</LINE>
+        <COLUMN>70</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2343</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'_m' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+        <FILENAME>mat.inl.hpp</FILENAME>
+        <LINE>2344</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'_m' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>utility.hpp</FILENAME>
+      <LINE>341</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>cv::getElemSize</FUNCTION>
+    <DECORATED>?getElemSize@cv@@YA_KH@Z</DECORATED>
+    <FUNCLINE>341</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>cuda.inl.hpp</FILENAME>
+      <LINE>301</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>cv::cuda::GpuMat::elemSize</FUNCTION>
+    <DECORATED>?elemSize@GpuMat@cuda@cv@@QEBA_KXZ</DECORATED>
+    <FUNCLINE>299</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>cuda.inl.hpp</FILENAME>
+      <LINE>482</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow:  32-bit value is shifted, then cast to 64-bit value.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>cv::cuda::HostMem::elemSize</FUNCTION>
+    <DECORATED>?elemSize@HostMem@cuda@cv@@QEBA_KXZ</DECORATED>
+    <FUNCLINE>480</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>513</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,3,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$02$00@cv@@QEAA@MMM@Z</DECORATED>
+    <FUNCLINE>509</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>513</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this-&gt;val'.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,3,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$02$00@cv@@QEAA@MMM@Z</DECORATED>
+    <FUNCLINE>509</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>505</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,2,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$01$00@cv@@QEAA@MM@Z</DECORATED>
+    <FUNCLINE>501</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>505</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this-&gt;val'.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,2,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$01$00@cv@@QEAA@MM@Z</DECORATED>
+    <FUNCLINE>501</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>521</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop:  initial condition does not satisfy test.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,4,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\opencv310\build\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>521</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this-&gt;val'.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,4,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z</DECORATED>
+    <FUNCLINE>517</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'SPP' hides previous declaration at line '40' of 'c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp'.</DESCRIPTION>
+    <FUNCTION>CalculationSPP_Demo</FUNCTION>
+    <DECORATED>?CalculationSPP_Demo@@YANXZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'HSM_Position1' hides previous declaration at line '37' of 'c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp'.</DESCRIPTION>
+    <FUNCTION>CalculationSPP_Demo</FUNCTION>
+    <DECORATED>?CalculationSPP_Demo@@YANXZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'SPPx'.</DESCRIPTION>
+    <FUNCTION>CalculationSPP_Demo</FUNCTION>
+    <DECORATED>?CalculationSPP_Demo@@YANXZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'SPPx' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>119</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>121</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>123</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>124</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>126</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>128</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'n&lt;((m+1))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>138</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'SPPx' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'HSM_Position1' hides previous declaration at line '37' of 'c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp'.</DESCRIPTION>
+    <FUNCTION>WeBoAdjustment_Demo</FUNCTION>
+    <DECORATED>?WeBoAdjustment_Demo@@YAXXZ</DECORATED>
+    <FUNCLINE>181</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>189</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'HSM_Position2' hides previous declaration at line '38' of 'c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp'.</DESCRIPTION>
+    <FUNCTION>WeBoAdjustment_Demo</FUNCTION>
+    <DECORATED>?WeBoAdjustment_Demo@@YAXXZ</DECORATED>
+    <FUNCLINE>181</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>285</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'HSM_Position360' hides previous declaration at line '39' of 'c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp'.</DESCRIPTION>
+    <FUNCTION>CalculationSPP_ZS</FUNCTION>
+    <DECORATED>?CalculationSPP_ZS@@YANXZ</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+      <FILENAME>maintest.cpp</FILENAME>
+      <LINE>547</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'dis' hides previous declaration at line '41' of 'c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\maintest.cpp'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>541</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\lena\documents\visual studio 2015\projects\a_djustment_webo\a_djustment_webo\</FILEPATH>
+        <FILENAME>maintest.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
